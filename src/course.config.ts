@@ -70,21 +70,21 @@ export interface CourseConfig {
 
 export const course: CourseConfig = {
   playground: { defaultPreset: "typescript" },
-  brandName: "TypeScript",
-  brandTagline: "Desde cero hasta datos reales",
-  crumb: "TypeScript · Desde cero",
-  documentTitle: "TypeScript desde cero — curso interactivo",
+  brandName: "Ingeniería de software",
+  brandTagline: "Conceptos y arquitectura desde primeros principios",
+  crumb: "Ingeniería de software · Interactivo",
+  documentTitle: "Ingeniería de software desde primeros principios",
   metaDescription:
-    "Aprende a leer, escribir y depurar programas en TypeScript con ejemplos que puedes correr y ejercicios con solución explicada.",
+    "Aprende diseño de código, estado, pruebas, APIs y arquitectura con ejemplos en TypeScript que puedes correr y cambiar.",
 
-  storagePrefix: "ts-desde-cero",
+  storagePrefix: "ing-software",
 
   hero: {
-    eyebrow: "Curso interactivo para quien nunca ha programado",
-    titleLead: "Escribe programas que entiendes.",
-    titleAccent: "Lee los errores sin miedo.",
+    eyebrow: "Para quien viene de producto y quiere pensar como ingeniero",
+    titleLead: "Entiende cómo se construye el software.",
+    titleAccent: "Defiende tus decisiones de arquitectura.",
     lede:
-      "Al terminar podrás escribir y depurar programas pequeños en TypeScript que reciben datos reales, como las citas de una clínica, los validan y producen un reporte útil. Cada lección tiene código que corres, cambias y comparas con tus predicciones.",
+      "Al terminar podrás leer un sistema y explicar cómo está organizado, discutir trade-offs de diseño con ingenieros y clientes, y construir una integración pequeña bien estructurada. Cada concepto se ve en código que corres, rompes y reparas.",
     primaryCtaStart: "Empezar el curso",
     primaryCtaResume: "Seguir donde quedé",
     ghostCta: "Cómo usar el curso",
@@ -96,7 +96,7 @@ export const course: CourseConfig = {
   pathSection: {
     heading: "La ruta",
     blurb:
-      "Empiezas por cómo piensa un programa, sumas los tipos de TypeScript, aprendes a trabajar con listas de datos y terminas construyendo un reporte real. No necesitas experiencia previa programando.",
+      "Empiezas con el mínimo de código para leer ejemplos. Luego subes por capas: diseño de código, estado, calidad, sistemas que hablan entre sí y arquitectura. Terminas diseñando y construyendo una integración real.",
   },
 
   footer:
