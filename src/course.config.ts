@@ -70,36 +70,35 @@ export interface CourseConfig {
 
 export const course: CourseConfig = {
   playground: { defaultPreset: "typescript" },
-  brandName: "Your Course",
-  brandTagline: "Learn with runnable examples",
-  crumb: "Your Course · Interactive",
-  documentTitle: "Your Course — runnable examples and exercises",
+  brandName: "TypeScript",
+  brandTagline: "Desde cero hasta datos reales",
+  crumb: "TypeScript · Desde cero",
+  documentTitle: "TypeScript desde cero — curso interactivo",
   metaDescription:
-    "Explore sample lessons with editable code, predictions, quizzes, and worked solutions.",
+    "Aprende a leer, escribir y depurar programas en TypeScript con ejemplos que puedes correr y ejercicios con solución explicada.",
 
-  storagePrefix: "your-course",
+  storagePrefix: "ts-desde-cero",
 
   hero: {
-    eyebrow: "Interactive course template",
-    titleLead: "Run the code.",
-    titleAccent: "Explain what happens.",
+    eyebrow: "Curso interactivo para quien nunca ha programado",
+    titleLead: "Escribe programas que entiendes.",
+    titleAccent: "Lee los errores sin miedo.",
     lede:
-      "Trace a running total, repair an average function, and compare code output with your predictions. These sample lessons show how to teach with editable examples, feedback, and worked solutions.",
-    primaryCtaStart: "Start the course",
-    primaryCtaResume: "Resume where you left off",
-    ghostCta: "How to use the course",
-    ghostCtaSlug: "welcome",
+      "Al terminar podrás escribir y depurar programas pequeños en TypeScript que reciben datos reales, como las citas de una clínica, los validan y producen un reporte útil. Cada lección tiene código que corres, cambias y comparas con tus predicciones.",
+    primaryCtaStart: "Empezar el curso",
+    primaryCtaResume: "Seguir donde quedé",
+    ghostCta: "Cómo usar el curso",
+    ghostCtaSlug: "empieza-aqui",
   },
 
-  // Set topic weights only when the course has a basis for those numbers.
   spotlight: null,
 
   pathSection: {
-    heading: "Sample lessons",
+    heading: "La ruta",
     blurb:
-      "Start with the editor controls, then explore teaching components and runtime examples. The draft entry shows how an unwritten lesson appears.",
+      "Empiezas por cómo piensa un programa, sumas los tipos de TypeScript, aprendes a trabajar con listas de datos y terminas construyendo un reporte real. No necesitas experiencia previa programando.",
   },
 
   footer:
-    "Progress is saved in this browser. Code examples need network access; keep secrets out of the editors.",
+    "Tu progreso se guarda en este navegador. Los ejemplos necesitan conexión a internet; no pegues contraseñas ni datos reales de pacientes en los editores.",
 };
